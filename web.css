@@ -1,12 +1,13 @@
-.banner{
-width: 100vw;
-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./web.jpg.jpg") no-repeat center;
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./web.jpg.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
-    
+
 }
-.navbar{
+
+.navbar {
     width: 90%;
     margin: auto;
     padding: 35px 0;
@@ -15,20 +16,78 @@ height: 100vh;
     justify-content: space-between;
 
 }
-.logo{
-    width:120px;
+
+.logo {
+    width: 120px;
     cursor: pointer;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
 }
 
 .navbar ul li a {
-   text-decoration: none;
-   color: white;
-   text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 5px solid red;
+    list-style-type: style
+}
+
+ .navbar ul li a::after{
+    content: ' ';
+    height: 3px;
+    width: 0;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+} 
+.center{
+    color: white;
+    position:flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+.home {
+    color:white;
+    position: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary { 
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 12em;
+    border: thin solid grey;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%; 
+    border-width: 2px;
+   
+}
+.btn :hover
+{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    background-position: 15px;
+    text-decoration: dotted;
+    text-align-last: auto;
+    
+}
+
+
