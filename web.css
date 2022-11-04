@@ -67,15 +67,17 @@
     justify-content: center;
 }
 .primary { 
+    width: 500px;
+    margin-left: 250px;
     font-weight: bold;
     color: dodgerblue;
-    padding: 12em;
+    padding: 8px;
     border: thin solid grey;
     border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25%; 
+    border-radius: 2%; 
     border-width: 2px;
    
 }
@@ -91,6 +93,9 @@
 }
 .new{
     border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
