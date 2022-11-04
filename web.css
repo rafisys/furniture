@@ -57,6 +57,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: style;
+
     
 }
 .home {
@@ -87,12 +89,14 @@
     padding: 10px;
     border-radius: 15px;
     background-position: 15px;
-    text-decoration: dotted;
-    text-align-last: auto;
-    
+    border-bottom: 5px rgb(4, 69, 155);
+    list-style-type: style;
+    background-color: aqua;
 }
 .new{
-    border-radius: 25%;
+    margin-top: 20px;
+    border-radius: 100%;
+    size: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
